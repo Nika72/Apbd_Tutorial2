@@ -6,7 +6,7 @@ public class AverageCalculator
     {
         if (numbers == null || numbers.Length == 0)
         {
-            throw new ArgumentException("The array cannot be null or empty.");
+            throw new ArgumentException("The array cannot be null OR empty.");
         }
 
         int sum = 0;
