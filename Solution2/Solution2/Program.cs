@@ -35,7 +35,7 @@ public static class Program
             throw new ArgumentException("The array is either null or empty.");
         }
 
-        int max = numbers[0]; // Initialize max with the first element of the array
+        int max = numbers[0]; // Initialize max with the first element of the arraY
 
         // Iterate through the array to find the maximum value
         for (int i = 1; i < numbers.Length; i++)
